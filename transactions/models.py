@@ -21,7 +21,7 @@ class TransactionArchive(models.Model):
     )
     quantity = models.FloatField()
     quantity_after = models.FloatField(blank=True, null=True)
-    who = models.CharField( max_length=64, null=False)
+    who = models.CharField(max_length=64, null=False, default='Unknown')
     when = models.DateTimeField(auto_now_add=True, null=False, blank=False)
 
     def __str__(self):

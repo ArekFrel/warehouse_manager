@@ -1,0 +1,17 @@
+[
+  { "pk": 1,
+    "name": "Input",
+    "description": "Adding quantity of specific item on stock."},
+  {  "pk": 2,
+    "name": "Withdraw",
+    "description": "Reduce quantity of specific item from stock"},
+  { "pk": 3,
+    "name": "Total Scrap",
+    "description": "Reduce quantity from stock to zero"},
+  { "pk": 4,
+    "name": "Scrap",
+    "description": "Reduce quantity of specific item from stock by scrapping"},
+  { "pk": 5,
+    "name": "Return to stock",
+    "description": "Return withdrawn items"}
+]
