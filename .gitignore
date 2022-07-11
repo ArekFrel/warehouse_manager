@@ -15,3 +15,7 @@ items/migrations/__pycache__/
 /warehouse/__pycache__
 /transactions/__pycache__
 *.ipynb
+/transactions/migrations/
+/orders/migrations/
+/locations/migrations/
+/items/migrations/
