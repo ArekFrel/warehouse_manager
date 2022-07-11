@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
                 ('when', models.DateTimeField(auto_now_add=True)),
                 ('item', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, related_name='trans_archive', to='items.item')),
                 ('transaction', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, related_name='transactions', to='transactions.transactiontype')),
-                ('who', django_currentuser.db.models.fields.CurrentUserField(default=django_currentuser.middleware.get_current_authenticated_user, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('who', models.CharField(default=None, max_length=32)),
             ],
         ),
     ]

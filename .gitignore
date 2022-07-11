@@ -9,6 +9,7 @@ media/items/*
 !/media/items/gitkeep.txt
 /static/
 /items/__pycache__
+items/migrations/__pycache__/
 /locations/__pycache__
 /orders/__pycache__
 /warehouse/__pycache__
