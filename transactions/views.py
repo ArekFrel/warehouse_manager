@@ -196,3 +196,4 @@ class TransactionArchiveView(ListView):
     template_name = "transactions/archive_list_view.html"
     model = TransactionArchive
     paginate_by = 10
+    ordering = ['-when']
